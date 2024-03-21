@@ -8,4 +8,4 @@ def climbStairs(n: int) -> int:
         temp = curr
         curr = prev + curr
         prev = temp
-    return curr
+    return curr 
